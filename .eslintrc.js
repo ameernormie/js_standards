@@ -19,6 +19,16 @@ module.exports = {
     eqeqeq: "error",
     "no-else-return": "error",
     "no-unused-vars": "error",
+    "no-var": "off",
+    "sort-imports": [
+      "error",
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: false,
+        ignoreMemberSort: true,
+        memberSyntaxSortOrder: ["single", "none", "all", "multiple"],
+      },
+    ],
   },
   settings: {
     react: {
